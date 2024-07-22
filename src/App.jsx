@@ -12,7 +12,7 @@ function App() {
     // URL del servidor WebSocket en Django Channels
     // const WS_SERVER_URL = 'ws://localhost:8000/ws/chat/';
     // const WS_SERVER_URL = 'ws://f1df-190-174-248-218.ngrok-free.app/ws/chat/?token=fkdsahjkfshiadjkfhoasdfk';
-    const WS_SERVER_URL = 'ws://0d46-190-174-245-109.ngrok-free.app/ws/chat/?token=fkdsahjkfshiadjkfhoasdfk';
+    const WS_SERVER_URL = 'wss://0d46-190-174-245-109.ngrok-free.app/ws/chat/?token=fkdsahjkfshiadjkfhoasdfk';
     // Crear una instancia de WebSocket y establecer la conexión
     const newSocket = new WebSocket(WS_SERVER_URL);
 
